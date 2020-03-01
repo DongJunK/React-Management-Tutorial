@@ -31,6 +31,9 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'center'
   },
+  tableHead:{
+    fontSize:'1.0rem'
+  },
   paper:{
     marginLeft:18,
     marginRight:18
@@ -38,17 +41,11 @@ const styles = theme => ({
   progress:{
     margin: theme.spacing(2)
   },
-  grow:{
-    flexGrow: 1,
-  },
-  tableHead:{
-    fontSize:'1.0rem'
-  },
   menuButton: {
-    marginLeft: -12,
-    marginRight: 20,
+    marginRight: theme.spacing(2),
   },
   title: {
+    flexGrow: 1,
     display: 'none',
     [theme.breakpoints.up('sm')]: {
       display: 'block',
