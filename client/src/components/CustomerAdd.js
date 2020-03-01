@@ -46,7 +46,6 @@ class CustomerAdd extends React.Component{
             job:'',
             fileName:''
         })
-        
     }
 
     handleFileChange = (e) =>{
